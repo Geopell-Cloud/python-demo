@@ -18,7 +18,11 @@ def home():
 @app.get("/hello")
 def hello():
     return {"message": "Hello Message from FastAPI"}
-
+    
+@app.get("/product")
+def product():
+    #return {"message": "Give me the product list from FastAPI"}
+    
 
 @app.post("/upload")
 def upload_file(file: UploadFile = File(...)):
