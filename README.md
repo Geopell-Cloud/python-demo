@@ -9,7 +9,7 @@ git clone https://github.com/yourusername/your-repo.git
 ```
 
 ## Project Structure
-
+```
 python-demo/
 ├── __pycache__
 |   └── main.cpython-39.pyc
@@ -26,3 +26,4 @@ python-demo/
 |
 ├── .gitignore
 └── main.py
+```
